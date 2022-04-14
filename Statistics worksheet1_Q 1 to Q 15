@@ -1,0 +1,142 @@
+STATISTICS WORKSHEET-1
+1 to Q9 have only one correct answer. Choose the correct option to answer your question.
+
+1. Bernoulli random variables take (only) the values 1 and 0.
+a) True
+b) False
+Ans:a) True
+
+2. Which of the following theorem states that the distribution of averages of iid variables, properly 
+normalized, becomes that of a standard normal as the sample size increases?
+a) Central Limit Theorem
+b) Central Mean Theorem
+c) Centroid Limit Theorem
+d) All of the mentioned
+Ans:a) Central Limit Theorem
+
+3. Which of the following is incorrect with respect to use of Poisson distribution?
+a) Modeling event/time data
+b) Modeling bounded count data
+c) Modeling contingency tables
+d) All of the mentioned
+Ans:b) Modeling bounded count data
+
+4. Point out the correct statement.
+a) The exponent of a normally distributed random variables follows what is called the log- normal 
+distribution
+b) Sums of normally distributed random variables are again normally distributed even if the variables 
+are dependent
+c) The square of a standard normal random variable follows what is called chi-squared 
+distribution
+d) All of the mentioned
+Ans: d) All of the mentioned
+
+5. ______ random variables are used to model rates.
+a) Empirical
+b) Binomial
+c) Poisson
+d) All of the mentioned
+Ans: c) Poisson
+
+6. 10. Usually replacing the standard error by its estimated value does change the CLT.
+a) True
+b) False
+Ans: b) False
+
+7. 1. Which of the following testing is concerned with making decisions using data?
+a) Probability
+b) Hypothesis
+c) Causal
+d) None of the mentioned
+Ans: b) Hypothesis
+
+8. 4. Normalized data are centered at______and have units equal to standard deviations of the 
+original data.
+a) 0
+b) 5
+c) 1
+d) 10
+Ans: a) 0
+
+9. Which of the following statement is incorrect with respect to outliers?
+a) Outliers can have varying degrees of influence
+b) Outliers can be the result of spurious or real processes
+c) Outliers cannot conform to the regression relationship
+d) None of the mentioned
+Ans: c) Outliers cannot conform to the regression relationship
+
+Q10and Q15 are subjective answer type questions, Answer them in your own words briefly:
+
+10. What do you understand by the term Normal Distribution?
+Ans: The Normal Distribution is also called as the Gaussian Distribution or Bell Curve.It is a probability function that specifies how the values of a variable are distributed is called the normal distribution.In a normal distribution, data is symmetrically distributed with no skew.
+
+Properties of the normal distribution:
+
+a)In a normal distribution, the mean, mean and mode are equal.(i.e., Mean = Median= Mode).
+b)The total area under the curve should be equal to 1.
+c)The normally distributed curve should be symmetric at the centre.
+d)There should be exactly half of the values are to the right of the centre and exactly half of the values are to the left of the centre.
+e)The normal distribution should be defined by the mean and standard deviation.
+f)The normal distribution curve must have only one peak. (i.e., Unimodal)
+g)The curve approaches the x-axis, but it never touches, and it extends farther away from the mean.
+
+11. How do you handle missing data? What imputation techniques do you recommend?
+Ans: We can use two methods to deal with missisng data->imputation or the removal of data.
+Before choosing method to handle missing data, we should understand why data is missing.Whether it is missing at Random (MAR),Missing Completely at Random (MCAR) or Missing Not at Random (MNAR).
+
+1) Removal: There are two primary methods for deleting data when dealing with missing data: listwise and dropping variables. 
+2)Imputaion: Their are many different methods for imputaion of missing data.
+a) Mean, Median and Mode
+b)Time-Series Specific Methods 
+c)Last Observation Carried Forward (LOCF) & Next Observation Carried Backward (NOCB)
+d)Linear Interpolation
+e)Seasonal Adjustment with Linear Interpolation
+f)Multiple Imputation
+e)K Nearest Neighbors
+
+The best imputaion technique is multiple imputation. Multiple imputation is considered a good approach for data sets with a large amount of missing data. Instead of substituting a single value for each missing data point, the missing values are exchanged for values that encompass the natural variability and uncertainty of the right values. Using the imputed data, the process is repeated to make multiple imputed data sets. Each set is then analyzed using the standard analytical procedures, and the multiple analysis results are combined to produce an overall result.
+
+The various imputations incorporate natural variability into the missing values, which creates a valid statistical inference. Multiple imputations can produce statistically valid results even when there is a small sample size or a large amount of missing data.
+
+12. What is A/B testing?
+Ans:A/B testing, also known as split testing or bucket testing, which allow you to compare 2 versions of something to learn which is more effective.It is a user experience research methodology.
+A/B testing is not only cost effective, it's time efficient. You test 2 or 3 elements and get your answer. From there, it’s easy to decide whether to implement a change or not.
+
+13.Is mean imputation of missing data acceptable practice?
+Ans: Although imputing missing values by using the mean is a popular imputation technique, there are serious problems with mean imputation. The variance of a mean-imputed variable is always biased downward from the variance of the un-imputed variable. This bias affects standard errors, confidence intervals, and other inferential statistics. Experts agree that mean imputation should be avoided when possible.
+
+14. What is linear regression in statistics?
+Ans: Linear regression strives to show the relationship between two variables by applying a linear equation to observed data. One variable is supposed to be an independent variable, and the other is to be a dependent variable. For example, the weight of the person is linearly related to his height. Hence this shows a linear relationship between the height and weight of the person. As the height is increased, the weight of the person also gets increased.
+
+Types of Linear Regression
+a)Simple linear regression
+1 dependent variable (interval or ratio), 1 independent variable (interval or ratio or dichotomous)
+
+b)Multiple linear regression
+1 dependent variable (interval or ratio) , 2+ independent variables (interval or ratio or dichotomous)
+
+c)Logistic regression
+1 dependent variable (dichotomous), 2+ independent variable(s) (interval or ratio or dichotomous)
+
+d)Ordinal regression
+1 dependent variable (ordinal), 1+ independent variable(s) (nominal or dichotomous)
+
+e)Multinomial regression
+1 dependent variable (nominal), 1+ independent variable(s) (interval or ratio or dichotomous)
+
+f)Discriminant analysis
+1 dependent variable (nominal), 1+ independent variable(s) (interval or ratio)
+
+15. What are the various branches of statistics?
+Ans: Statistics may be divided into two main branches:
+(1) Descriptive Statistics (2) Inferential Statistics
+
+(1) Descriptive Statistics
+Descriptive statistics deals with the collection of data, its presentation in various forms, such as tables, graphs and diagrams and finding averages and other measures which would describe the data.
+
+For example: Industrial statistics, population statistics, trade statistics, etc. Businessmen make use of descriptive statistics in presenting their annual reports, final accounts, and bank statements.
+
+(2) Inferential Statistics
+Inferential statistics deals with techniques used for the analysis of data, making estimates and drawing conclusions from limited information obtained through sampling and testing the reliability of the estimates.
+
+For example: Suppose we want to have an idea about the percentage of the illiterate population of our country. We take a sample from the population and find the proportion of illiterate individuals in the sample. With the help of probability, this sample proportion enables us to make some inferences about the population proportion. This study belongs to inferential statistics.
