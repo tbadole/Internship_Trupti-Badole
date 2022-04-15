@@ -1,0 +1,110 @@
+                         MACHINE LEARNING
+In Q1 to Q11, only one option is correct, choose the correct option: 
+
+1. Which of the following methods do we use to find the best fit line for data in Linear Regression? 
+A) Least Square Error B) Maximum Likelihood 
+C) Logarithmic Loss D) Both A and B
+Ans: A) Least Square Error
+ 
+2. Which of the following statement is true about outliers in linear regression? 
+A) Linear regression is sensitive to outliers B) linear regression is not sensitive to outliers 
+C) Can’t say D) none of these 
+Ans: A) Linear regression is sensitive to outliers
+
+3. A line falls from left to right if a slope is ______? 
+A) Positive B) Negative 
+C) Zero D) Undefined 
+Ans: A) Positive
+
+4. Which of the following will have symmetric relation between dependent variable and independent 
+variable? 
+A) Regression B) Correlation 
+C) Both of them D) None of these 
+Ans: B) Correlation
+
+5. Which of the following is the reason for over fitting condition? 
+A) High bias and high variance B) Low bias and low variance 
+C) Low bias and high variance D) none of these 
+Ans: C) Low bias and high variance
+
+6. If output involves label then that model is called as: 
+A) Descriptive model B) Predictive modal 
+C) Reinforcement learning D) All of the above 
+Ans: B) Predictive modal 
+
+7. Lasso and Ridge regression techniques belong to _________? 
+A) Cross validation B) Removing outliers 
+C) SMOTE D) Regularization 
+Ans: D) Regularization 
+
+8. To overcome with imbalance dataset which technique can be used? 
+A) Cross validation B) Regularization 
+C) Kernel D) SMOTE 
+Ans: D) SMOTE
+
+9. The AUC Receiver Operator Characteristic (AUCROC) curve is an evaluation metric for binary 
+classification problems. It uses _____ to make graph? 
+A) TPR and FPR B) Sensitivity and precision 
+C) Sensitivity and Specificity D) Recall and precision 
+Ans: A) TPR and FPR
+
+10. In AUC Receiver Operator Characteristic (AUCROC) curve for the better model area under the 
+curve should be less. 
+A) True B) False 
+Ans:B) False
+
+11. Pick the feature extraction from below: 
+A) Construction bag of words from a email 
+B) Apply PCA to project high dimensional data 
+C) Removing stop words 
+D) Forward selection 
+And: A) Construction bag of words from a email 
+
+In Q12, more than one options are correct, choose all the correct options: 
+12. Which of the following is true about Normal Equation used to compute the coefficient of the Linear 
+Regression? 
+A) We don’t have to choose the learning rate. 
+B) It becomes slow when number of features is very large. 
+C) We need to iterate. 
+D) It does not make use of dependent variable. 
+Ans: A) & B)
+
+Q13 and Q15 are subjective answer type questions, Answer them briefly. 
+
+13. Explain the term regularization? 
+Ans:The word regularize means to make things regular or acceptable. This is exactly why we use it for. Regularizations are techniques used to reduce the error by fitting a function appropriately on the given training set and avoid overfitting.
+Regularization is an application of Occam’s Razor. It is one of the key concepts in Machine learning as it helps choose a simple model rather than a complex one.
+
+Regularization is implemented by adding a “penalty” term to the best fit derived from the trained data, to achieve a lesser variance with the tested data and also restricts the influence of predictor variables over the output variable by compressing their coefficients.
+
+14. Which particular algorithms are used for regularization? 
+Ans: The regularization techniques in machine learning are:
+
+a)Lasso regression:Least Absolute Shrinkage and Selection Operator (or LASSO) Regression penalizes the coefficients to the extent that it becomes zero. It eliminates the insignificant independent variables. This regularization technique uses the L1 norm for regularization.
+It adds L1-norm as the penalty.
+L1 is the absolute value of the beta coefficients.
+It is also known as the L-1 regularization.
+The output of L1 regularization is sparse.
+
+b)Ridge regression:The Ridge regression technique is used to analyze the model where the variables may be having multicollinearity. It reduces the insignificant independent variables though it does not remove them completely. This type of regularization uses the L2 norm for regularization.
+
+It uses the L2-norm as the penalty.
+L2 penalty is the square of the magnitudes of beta coefficients.
+It is also known as L2-regularization.
+L2 shrinks the coefficients, however never make them to zero.
+The output of L2 regularization is non-sparse.
+
+C)Elastic net regression:The Elastic Net Regression technique is a combination of the Ridge and Lasso regression technique. It is the linear combination of penalties for both the L1-norm and L2-norm regularization.
+
+The model using elastic net regression allows the learning of the sparse model where some of the points are zero, similar to Lasso regularization, and yet maintains the Ridge regression properties. Therefore, the model is trained on both the L1 and L2 norms.
+
+15. Explain the term error present in linear regression equation?
+Ans: An error term is a residual variable produced by a statistical or mathematical model, which is created when the model does not fully represent the actual relationship between the independent variables and the dependent variables. As a result of this incomplete relationship, the error term is the amount at which the equation may differ during empirical analysis.
+
+The error term is also known as the residual, disturbance, or remainder term, and is variously represented in models by the letters e, ε, or u.
+Linear regression most often uses mean-square error (MSE) to calculate the error of the model. MSE is calculated by:
+
+measuring the distance of the observed y-values from the predicted y-values at each value of x;
+squaring each of these distances;
+calculating the mean of each of the squared distances.
+Linear regression fits a line to the data by finding the regression coefficient that results in the smallest MSE.
